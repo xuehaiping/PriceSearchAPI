@@ -1,0 +1,17 @@
+{
+  "name": "pricesearchapi",
+  "version": "1.0.0",
+  "description": "This service will handle requests to buy or sell a particular amount of a currency (the base currency) with another currency (the quote currency). This service uses the orderbook to determine the best price the user would be able to get for that request by executing trades on GDAX.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Haiping Xue",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2"
+  }
+}
